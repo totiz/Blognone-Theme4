@@ -1,0 +1,26 @@
+[SecondView.m]
+
+- [entries] is the property that contain Titles, Details, Images for each row
+
+if indexPath.row %2 == 0
+	the row will be the trnasparent gap
+else
+	- creating the new cell
+	- rounding the corners
+	- insert the content,image from [entries] to each row
+	
+[note]
+
+tmpCell = cell that's initial cell when creating cell
+cellNib = to be the Nib point to cell that want to create with
+myTableView = main TableView
+entries = all content in rows
+
+[myCell.m]
+myBackGroundView = backgroundView
+iconImage = Icon image for each row
+titleView = title for each row
+detailView = detail for each row
+
+ - Custom cell Selection in - (void)setSelected:(BOOL)selected animated:(BOOL)animated
+ 	remove out of default behavior and replace with change background color when selected and unselected.

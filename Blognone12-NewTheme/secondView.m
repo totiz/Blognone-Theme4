@@ -4,7 +4,7 @@
 //
 //  Created by Nattapon on 3/21/11.
 //  Copyright 2011 iphone developer. All rights reserved.
-// change something
+// change something2
 
 #import "secondView.h"
 #import <QuartzCore/QuartzCore.h>
